@@ -1,0 +1,14 @@
+{
+    "servers": {
+        "basic-sas-mcp-server": {
+            "type": "stdio",
+            "command": "uv",
+            "args": [
+                "--directory",
+                "***folder path***",
+                "run",
+                "server.py"
+            ]
+        }
+    }
+}
